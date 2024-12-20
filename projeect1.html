@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamer’s Hub</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: white;
+            line-height: 1.6;
+        }
+        .hero {
+            height: 100vh;
+            background: url('https://via.placeholder.com/1500x900?text=Gaming+Background') no-repeat center center/cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: #fff;
+            position: relative;
+        }
+        .hero h1 {
+            font-size: 4rem;
+            color: #FF5733;
+        }
+        nav {
+            background: #222;
+            padding: 15px 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            text-transform: uppercase;
+            border-radius: 5px;
+        }
+        nav a:hover, nav .active {
+            background: #FF5733;
+        }
+        main {
+            padding: 50px 10%;
+            background: #1a1a1a;
+        }
+        .section img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+        .game {
+            background: #333;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            width: 30%;
+        }
+        footer {
+            background: #222;
+            color: #ccc;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header class="hero">
+        <h1>Welcome to Gamer’s Hub</h1>
+    </header>
+
+    <nav>
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <main>
+        <section class="section">
+            <img src="https://via.placeholder.com/1200x600?text=Gaming+Setup" alt="Gaming setup">
+        </section>
+        <section class="section">
+            <div class="game">
+                <img src="https://via.placeholder.com/400x250?text=Game+1" alt="Game 1">
+                <h3>Game 1</h3>
+                <p>Explore an open world in this action-packed adventure!</p>
+            </div>
+            <div class="game">
+                <img src="https://via.placeholder.com/400x250?text=Game+2" alt="Game 2">
+                <h3>Game 2</h3>
+                <p>Master complex combat in this thrilling strategy game.</p>
+            </div>
+            <div class="game">
+                <img src="https://via.placeholder.com/400x250?text=Game+3" alt="Game 3">
+                <h3>Game 3</h3>
+                <p>Enter a fantasy realm filled with magic and epic battles.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Gamer’s Hub. All rights reserved.</p>
+    </footer>
+</body>
+</html>

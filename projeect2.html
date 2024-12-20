@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Gamer’s Hub</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: white;
+            line-height: 1.6;
+        }
+        .hero {
+            background: url('https://cdn.pixabay.com/photo/2015/07/18/10/56/game-851030_1280.jpg') no-repeat center center/cover;
+            height: 60vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            filter: brightness(0.5);
+            position: relative;
+        }
+        .hero .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 4rem;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+        .hero p {
+            font-size: 1.5rem;
+            color: #FFD700;
+        }
+        nav {
+            background-color: #111;
+            padding: 15px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav a {
+            color: white;
+            margin: 0 20px;
+            text-decoration: none;
+            font-size: 1.1rem;
+            text-transform: uppercase;
+            transition: color 0.3s ease;
+        }
+        nav a.active {
+            color: #FFD700;
+        }
+        nav a:hover {
+            color: #FF5733;
+        }
+        .content {
+            padding: 60px 10%;
+            background-color: #2d2d2d;
+            color: #f5f5f5;
+        }
+        .content h2 {
+            font-size: 2.8rem;
+            color: #FF5733;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .content p {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            margin-bottom: 30px;
+        }
+        .about-image {
+            width: 100%;
+            max-width: 1200px;
+            height: auto;
+            border-radius: 20px;
+            margin: 30px 0;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+        }
+        .vision {
+            text-align: center;
+            margin-top: 50px;
+        }
+        footer {
+            background-color: #111;
+            color: #ccc;
+            padding: 20px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="hero">
+        <div class="overlay">
+            <h1>About Gamer’s Hub</h1>
+            <p>Your ultimate destination for gaming news, community, and adventure!</p>
+        </div>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html" class="active">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <main>
+        <section class="content">
+            <h2>Who We Are</h2>
+            <p>Gamer’s Hub is a platform created for gamers around the globe. We bring together the latest gaming news, guides, reviews, and a community where you can share your passion. Whether you are into competitive gaming, casual play, or learning about new releases, we’ve got it all.</p>
+            <img src="IMG_8311.jpg" alt="Gaming community" class="about-image">
+
+            <h2>Our Mission</h2>
+            <p>Our mission is to foster a global gaming community where players can come together to share their passion, knowledge, and experiences. We aim to offer a platform where gamers can connect, learn, and grow.</p>
+            <img src="https://cdn.pixabay.com/photo/2016/10/25/12/28/game-1767396_1280.jpg" alt="Gaming mission" class="about-image">
+            
+            <div class="vision">
+                <h2>Our Vision</h2>
+                <p>We envision a world where gamers across all cultures and communities can connect, collaborate, and push the boundaries of gaming to new heights. Our platform is a safe and inclusive space for all to thrive.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Gamer’s Hub. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
